@@ -1,7 +1,7 @@
-  <TITLE>Sim indica</TITLE>
+<title>Sim Indica</title>
   <div class='text-center'>
-  <H1>SIM : TV por assinatura e internet </H1>
-    <?php echo (isset($msg) ? $msg : '') ?>
+    <h1>SIM : TV por assinatura e internet </h1>
+      <?php echo (isset($msg) ? $msg : '') ?>
   </div>  
   <fieldset id='ident_form'> 
       <link rel="stylesheet" type="text/css" href="http://localhost/xampp/simindica/lib/css/simindica.css">
@@ -83,7 +83,7 @@
           </div>
           <p>
             Telefone 1:
-            <input type='text' placeholder='(DDD)+(Número) ' name='telefone1'>
+            <input type='text' placeholder='(DDD)+(Número)' name='telefone1'>
           </p>
           <p>
             Telefone2:
