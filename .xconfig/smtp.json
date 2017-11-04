@@ -1,0 +1,9 @@
+{
+	"protocol": "smtp",
+	"smtp_host": "ssl://smtp.googlemail.com",
+	"smtp_port": 465,
+	"smtp_user": "kaka.vazquez@gmail.com",
+	"smtp_pass": "segredonaoseconta",
+	"mailtype" : "html",
+	"charset"  : "utf-8"
+}
