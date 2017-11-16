@@ -1,8 +1,14 @@
+
 <title>Sim Indica</title>
-  <div class='text-center'>
-    <h1>SIM : TV por assinatura e internet</h1>
-      <?php echo (isset($msg) ? $msg : '') ?>
-  </div>  
+  <div>
+    <link type="text/css" href="http://localhost/xampp/simindica/lib/css/simindica.css">
+    <header>
+    <img id='form-logo-top' src='http://localhost/xampp/simindica/new_sim_logo.png'/>     
+    <font color='white'><b>:: TV por assinatura e internet</b></font>
+    </header>     
+  </div>
+  <br><br> 
+  <?php echo (isset($msg) ? $msg : '') ?> 
   <fieldset id='ident_form'> 
       <link rel="stylesheet" type="text/css" href="http://localhost/xampp/simindica/lib/css/simindica.css">
     <img id='form-logo-header' src='http://localhost/xampp/simindica/new_sim_logo.png'/>
